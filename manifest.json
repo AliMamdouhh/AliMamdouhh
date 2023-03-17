@@ -1,22 +1,51 @@
-
-    {
-  "name": "ELLOLL BLOG",
+{
+  "name": "ELLOLL",
   "short_name": "ELLOLL",
+  "start_url": "https://ellollo.blogspot.com",
+  "display": "standalone",
+  "background_color": "#0D0F18",
+  "theme_color": "#0D0F18",
+  "description": "مدونة تقدم لكم جميع الأغاني والمهرجانات المصرية بجودة عالية وبدون إعلانات.",
   "icons": [
     {
-      "src": "https://i.ibb.co/z2NCnr3/Picsart-23-03-16-15-54-04-008.png",
+      "src": "https://i.ibb.co/Kxx5mS4/Picsart-23-03-17-22-00-26-493.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "https://i.ibb.co/h8ZqTM1/Picsart-23-03-17-22-02-08-077.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "https://i.ibb.co/KVXnb3j/Picsart-23-03-17-22-03-19-139.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "https://i.ibb.co/F5rTBvW/Picsart-23-03-17-22-04-20-972.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "https://i.ibb.co/qgg3FL3/Picsart-23-03-17-22-05-19-996.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "https://i.ibb.co/qr2gKZL/Picsart-23-03-17-22-08-02-374.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "https://i.ibb.co/BrGjhWD/Picsart-23-03-16-15-59-25-493.png",
+      "src": "https://i.ibb.co/stLWVpV/Picsart-23-03-17-22-08-59-403.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "https://i.ibb.co/wr7R2cc/Picsart-23-03-17-22-09-58-953.png",
       "sizes": "512x512",
       "type": "image/png"
     }
-  ],
-  "theme_color": "black",
-  "background_color": "black",
-  "start_url": "https://ellollo.blogspot.com",
-  "display": "standalone"
+  ]
 }
-
