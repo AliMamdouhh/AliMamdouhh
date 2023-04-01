@@ -1,7 +1,9 @@
 {
-  "name": "ELLOLL",
-  "short_name": "ELLOLL",
-  "start_url": "https://ellollo.blogspot.com",
+  "name": "乇ㄥㄥㄖㄥㄥ",
+  "short_name": "乇ㄥㄥㄖㄥㄥ",
+versionName "3.6.9"
+  "version": "3.6.9",
+  "start_url": "https://ellollo.blogspot.com/?m=1",
   "display": "standalone",
   "background_color": "#0D0F18",
   "theme_color": "#0D0F18",
@@ -47,18 +49,5 @@
       "sizes": "512x512",
       "type": "image/png"
     }
-  ],
-  "permissions": {
-    "geolocation": true,
-    "notifications": true,
-    "camera": true,
-    "microphone": true,
-    "magnetometer": true,
-    "gyroscope": true,
-    "deviceorientation": true,
-    "ambient-light-sensor": true,
-    "accelerometer": true,
-    "fullscreen": true,
-    "payment": true
-  }
+  ]
 }
