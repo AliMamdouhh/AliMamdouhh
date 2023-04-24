@@ -3,7 +3,7 @@
   "short_name": "乇ㄥㄥㄖㄥㄥ",
   "start_url": "https://ellollo.blogspot.com/?m=1",
   "display": "standalone",
-  "background_color": "#0D0F18",
+  "background_color":var(--linkB),
   "theme_color": "#0D0F18",
   "description": "مدونة تقدم لكم جميع الأغاني والمهرجانات المصرية بجودة عالية وبدون إعلانات.",
   "icons": [
