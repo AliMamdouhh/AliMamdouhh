@@ -1,1 +1,51 @@
-addEventListener("fetch", event => { const data = { name: "乇ㄥㄥㄖㄥㄥ", short_name: "乇ㄥㄥㄖㄥㄥ", description: "قم بتحميل تطبيق موقعنا الالكتروني الان وتصفح احدث المشاركات بدون انترنت. - Install APP Now ", display: "standalone", prefer_related_applications: false, start_url: "https://ellollo.blogspot.com/?m=1", scope: "\/", background_color: "#0D0F18", theme_color: "#0D0F18", icons: [ { src: "https://i.ibb.co/wr7R2cc/Picsart-23-03-17-22-09-58-953.png", sizes: "512x512", type: "image\/png", density: "4.0", purpose: "any maskable" }, { src: "https://i.ibb.co/qr2gKZL/Picsart-23-03-17-22-08-02-374.png", sizes: "192x192", type: "image\/png", density: "4.0", purpose: "any maskable" }, { src: "https://i.ibb.co/F5rTBvW/Picsart-23-03-17-22-04-20-972.png", sizes: "144x144", type: "image\/png", density: "3.0", purpose: "any maskable" }, { src: "https://i.ibb.co/h8ZqTM1/Picsart-23-03-17-22-02-08-077.png", sizes: "96x96", type: "image\/png", density: "2.0", purpose: "any maskable" }, { src: "https://i.ibb.co/Kxx5mS4/Picsart-23-03-17-22-00-26-493.png", sizes: "72x72", type: "image\/png", density: "1.5", purpose: "any maskable" }, { src: "\/main\/android-icon-48x48.png", sizes: "48x48", type: "image\/png", density: "1.0", purpose: "any maskable" }, { src: "\/main\/android-icon-36x36.png", sizes: "36x36", type: "image\/png", density: "0.75", purpose: "any maskable" } ], shortcuts: [ { name: "الصفحة الرئيسية", short_name: "Homepage", description: "مستر ميدو | دروس وشروحات دوت نت عالم الخبرة الرقمية.", url: "\/?utm_source=homescreen", icons: [ { src: "\/main\/home-icon-192x192.png", sizes: "192x192" } ] }, { name: "احدث المشاركات", short_name: "Blog", description: "احدث المشاركات.", url: "\/search?utm_source=homescreen", icons: [ { src: "\/main\/trend-icon-192x192.png", sizes: "192x192" } ] }, { name: "تطبيقات والعاب", short_name: "تطبيقات والعاب", description: "التطبيقات والالعاب.", url: "\/search\/label\/تطبيقات?utm_source=homescreen", icons: [ { src: "\/main\/appsm-icon-192x192.png", sizes: "192x192" } ] } ], screenshots: [ { src: "\/main\/scr1.png", type: "image\/png", sizes: "540x720" }, { src: "\/main\/scr2.png", type: "image\/png", sizes: "540x720" }, { src: "\/main\/scr3.png", type: "image\/png", sizes: "540x720" }, { src: "\/main\/scr4.png", type: "image\/png", sizes: "540x720" }, { src: "\/main\/scr5.png", type: "image\/png", sizes: "540x720" } ], serviceworker: { src: "\/sw.js" } } const json = JSON.stringify(data, null, 2) return event.respondWith( new Response(json, { headers: { "content-type": "application/json;charset=UTF-8" } }) ) })
+{
+  "name": "乇ㄥㄥㄖㄥㄥ",
+  "short_name": "乇ㄥㄥㄖㄥㄥ",
+  "start_url": "https://ellollo.blogspot.com/?m=1",
+  "display": "standalone",
+  "background_color":"#0D0F18",
+  "theme_color": "#0D0F18",
+  "description": "مدونة تقدم لكم جميع الأغاني والمهرجانات المصرية بجودة عالية وبدون إعلانات.",
+  "icons": [
+    {
+      "src": "https://i.ibb.co/Kxx5mS4/Picsart-23-03-17-22-00-26-493.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "https://i.ibb.co/h8ZqTM1/Picsart-23-03-17-22-02-08-077.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "https://i.ibb.co/KVXnb3j/Picsart-23-03-17-22-03-19-139.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "https://i.ibb.co/F5rTBvW/Picsart-23-03-17-22-04-20-972.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "https://i.ibb.co/qgg3FL3/Picsart-23-03-17-22-05-19-996.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "https://i.ibb.co/qr2gKZL/Picsart-23-03-17-22-08-02-374.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://i.ibb.co/stLWVpV/Picsart-23-03-17-22-08-59-403.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "https://i.ibb.co/wr7R2cc/Picsart-23-03-17-22-09-58-953.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
